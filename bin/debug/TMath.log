@@ -1,0 +1,166 @@
+﻿生成启动时间为 2016/7/15 16:29:41。
+     1>项目“E:\Project\QH01\external\src\TMath\TMath.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“bin\debug\TMath.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Iinclude /Idebug /Iinclude\Sat /Iinclude\Sofa /Zi /nologo /W3 /WX- /Od /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D TMATH_LIBRARY /D _WINDLL /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Fo"bin\debug\\" /Fd"bin\debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt src\SAT\TECI.cpp src\SAT\TOrbitalElements.cpp src\SAT\TSGP4.cpp src\Sat\TKepler.cpp src\TUtilities.cpp -Zm200 -w34100 -w34189 
+         TECI.cpp
+     1>E:\Project\QH01\external\src\TMath\include\TVector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\project\qh01\external\src\tmath\include\TUtilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Project\QH01\external\src\TMath\include\Sat\TECI.h(110): warning C4251: “TMath::TECI::m_position”: class“TMath::TVector<T,d>”需要有 dll 接口由 class“TMath::TECI”的客户端使用
+                 with
+                 [
+                     T=double,
+                     d=3
+                 ]
+     1>E:\Project\QH01\external\src\TMath\include\Sat\TECI.h(111): warning C4251: “TMath::TECI::m_velocity”: class“TMath::TVector<T,d>”需要有 dll 接口由 class“TMath::TECI”的客户端使用
+                 with
+                 [
+                     T=double,
+                     d=3
+                 ]
+     1>E:\Project\QH01\external\src\TMath\include\TUtilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Project\QH01\external\src\TMath\include\TConstants.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\project\qh01\external\src\tmath\include\TMatrix.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\project\qh01\external\src\tmath\include\TUtilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\project\qh01\external\src\tmath\include\TVector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\project\qh01\external\src\tmath\include\TVector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         TOrbitalElements.cpp
+     1>e:\project\qh01\external\src\tmath\include\sat\TTle.h(163): warning C4251: “TMath::TTle::m_name”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“TMath::TTle”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>e:\project\qh01\external\src\tmath\include\sat\TTle.h(164): warning C4251: “TMath::TTle::m_line_one”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“TMath::TTle”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>e:\project\qh01\external\src\tmath\include\sat\TTle.h(165): warning C4251: “TMath::TTle::m_line_two”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“TMath::TTle”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>e:\project\qh01\external\src\tmath\include\sat\TTle.h(167): warning C4251: “TMath::TTle::m_int_designator”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“TMath::TTle”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>E:\Project\QH01\external\src\TMath\include\TConstants.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\project\qh01\external\src\tmath\include\TMatrix.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\project\qh01\external\src\tmath\include\TUtilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\project\qh01\external\src\tmath\include\TVector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\project\qh01\external\src\tmath\include\TUtilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\project\qh01\external\src\tmath\include\TVector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         TSGP4.cpp
+     1>e:\project\qh01\external\src\tmath\include\sat\TTle.h(163): warning C4251: “TMath::TTle::m_name”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“TMath::TTle”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>e:\project\qh01\external\src\tmath\include\sat\TTle.h(164): warning C4251: “TMath::TTle::m_line_one”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“TMath::TTle”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>e:\project\qh01\external\src\tmath\include\sat\TTle.h(165): warning C4251: “TMath::TTle::m_line_two”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“TMath::TTle”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>e:\project\qh01\external\src\tmath\include\sat\TTle.h(167): warning C4251: “TMath::TTle::m_int_designator”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“TMath::TTle”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>E:\Project\QH01\external\src\TMath\include\TVector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\project\qh01\external\src\tmath\include\TUtilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\project\qh01\external\src\tmath\include\sat\TECI.h(110): warning C4251: “TMath::TECI::m_position”: class“TMath::TVector<T,d>”需要有 dll 接口由 class“TMath::TECI”的客户端使用
+                 with
+                 [
+                     T=double,
+                     d=3
+                 ]
+     1>e:\project\qh01\external\src\tmath\include\sat\TECI.h(111): warning C4251: “TMath::TECI::m_velocity”: class“TMath::TVector<T,d>”需要有 dll 接口由 class“TMath::TECI”的客户端使用
+                 with
+                 [
+                     T=double,
+                     d=3
+                 ]
+     1>E:\Project\QH01\external\src\TMath\include\TConstants.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\project\qh01\external\src\tmath\include\TMatrix.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\project\qh01\external\src\tmath\include\TUtilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\project\qh01\external\src\tmath\include\TVector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\project\qh01\external\src\tmath\include\TVector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         TKepler.cpp
+     1>E:\Project\QH01\external\src\TMath\include\TVector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\project\qh01\external\src\tmath\include\TUtilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Project\QH01\external\src\TMath\include\TConstants.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\project\qh01\external\src\tmath\include\TMatrix.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\project\qh01\external\src\tmath\include\TUtilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\project\qh01\external\src\tmath\include\TVector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\project\qh01\external\src\tmath\include\TVector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Project\QH01\external\src\TMath\include\TVector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\project\qh01\external\src\tmath\include\sat\TECI.h(110): warning C4251: “TMath::TECI::m_position”: class“TMath::TVector<T,d>”需要有 dll 接口由 class“TMath::TECI”的客户端使用
+                 with
+                 [
+                     T=double,
+                     d=3
+                 ]
+     1>e:\project\qh01\external\src\tmath\include\sat\TECI.h(111): warning C4251: “TMath::TECI::m_velocity”: class“TMath::TVector<T,d>”需要有 dll 接口由 class“TMath::TECI”的客户端使用
+                 with
+                 [
+                     T=double,
+                     d=3
+                 ]
+         TUtilities.cpp
+     1>E:\Project\QH01\external\src\TMath\include\TUtilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Project\QH01\external\src\TMath\include\TConstants.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\project\qh01\external\src\tmath\include\TMatrix.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\project\qh01\external\src\tmath\include\TUtilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\project\qh01\external\src\tmath\include\TVector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\project\qh01\external\src\tmath\include\TUtilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\project\qh01\external\src\tmath\include\TVector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         正在生成代码...
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\debug\\TMathd.dll" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"bin\debug\TMathd.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Project\QH01\external\src\TMath\bin\debug\TMathd.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 /DLL bin\debug\TCoordGeodetic.obj
+         bin\debug\TDateTime.obj
+         bin\debug\TECI.obj
+         bin\debug\TKepler.obj
+         bin\debug\TTleException.obj
+         bin\debug\TOrbitalElements.obj
+         bin\debug\TSatelliteException.obj
+         bin\debug\TSGP4.obj
+         bin\debug\TTimeSpan.obj
+         bin\debug\TTle.obj
+         bin\debug\TSofa.obj
+         bin\debug\TUtilities.obj
+         LINK : 没有找到 bin\debug\\TMathd.dll 或上一个增量链接没有生成它；正在执行完全链接
+            正在创建库 bin\debug\\TMathd.lib 和对象 bin\debug\\TMathd.exp
+         TMath.vcxproj -> E:\Project\QH01\external\src\TMath\bin\debug\TMathd.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"bin\debug\\TMathd.dll;#2" /manifest bin\debug\TMathd.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“bin\debug\TMath.unsuccessfulbuild”。
+         正在对“bin\debug\TMath.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\Project\QH01\external\src\TMath\TMath.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.83
